@@ -154,6 +154,11 @@
     .banner-text{
         font-size: 20px;
     }
+    /* plant section */
+
+    .plant-section-description{
+        padding: 0px;
+    }
     .card-container{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -164,6 +169,15 @@
     }
     .store{
         flex-direction: column;
+        margin-top: 41px;
+    }
+    .store h4{
+        margin-top: 0px;
+        font-size: 24px;
+
+    }
+    .store-dis{
+        font-size: 14px;
     }
     .store-image{
         max-width: 100%;
