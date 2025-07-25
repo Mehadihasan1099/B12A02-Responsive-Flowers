@@ -1,10 +1,15 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 .reddish-orang{
     color: #E95A08;
 }
-
+.second-colour-and-size{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
 
 
 .nav-sec .bold-text{
@@ -53,11 +58,6 @@
     font-size: 65px;
     margin-bottom: 0px;
 }
-.banner-text{
-    font-size: 22px;
-    color: rgba(0, 0, 0, 0.5);
-}
-
 
 /* plant section */
 
@@ -72,8 +72,7 @@
     margin-bottom: 0px;
 }
 .plant-section-description{
-    font-size: 22px;
-    color: rgba(0, 0, 0, 0.5);
+    padding: 0px 126px;
     margin-top: 22px;
 }
 .card img{
@@ -102,7 +101,33 @@
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
 }
+/* Trusted Plant Lover Badge */
 
+.badge{
+    position: absolute;
+    max-width: 256px;
+    margin-left: 373px;
+    margin-top: -143px;
+}
+.parental{
+    position: relative;
+}
+
+/* Flower and plant lover section */
+.store{
+    display: flex;
+    gap: 60px;
+    max-width: 71.25rem;
+    margin: 226px auto;
+}
+
+.store h4{
+    font-weight: 700;
+    font-size: 50px;
+}
+.store li{
+    margin-bottom: 20px;
+}
 
 /* mobile section */
 @media screen and (max-width: 576px) {
@@ -129,5 +154,15 @@
     .card-container{
         grid-template-columns: repeat(2, 1fr);
     }
-    
+    /* Flower and plant lover section */
+    .badge{
+        visibility: hidden;
+
+    }
+    .store{
+        flex-direction: column;
+    }
+    .store-image{
+        max-width: 100%;
+    }
 } 
