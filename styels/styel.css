@@ -57,6 +57,51 @@
     font-size: 22px;
     color: rgba(0, 0, 0, 0.5);
 }
+
+
+/* plant section */
+
+.plant-section{
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+}
+.plant-section-titel{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.plant-section-description{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 22px;
+}
+.flower-name{
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.flower-price{
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 2px;
+}
+
+.card button{
+    background-color: #E95A08;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+.card-container{
+    display: grid;
+    max-width: 270px;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
 /* mobile section */
 @media screen and (max-width: 576px) {
     .hide{
