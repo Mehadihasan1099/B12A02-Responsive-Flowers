@@ -76,6 +76,9 @@
     color: rgba(0, 0, 0, 0.5);
     margin-top: 22px;
 }
+.card img{
+    width: 100%;
+}
 .flower-name{
     font-weight: 500;
     font-size: 22px;
@@ -96,7 +99,6 @@
 }
 .card-container{
     display: grid;
-    max-width: 270px;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -125,7 +127,7 @@
         font-size: 20px;
     }
     .card-container{
-        max-width: 171px;
         grid-template-columns: repeat(2, 1fr);
     }
+    
 } 
