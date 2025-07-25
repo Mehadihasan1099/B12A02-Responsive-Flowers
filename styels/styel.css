@@ -12,8 +12,11 @@
 }
 
 
-.nav-sec .bold-text{
+.bold-text{
     font-weight: 700;
+}
+.b3{
+    color: #8987A1;
 }
 .nav-sec{
     display: flex;
@@ -156,7 +159,7 @@
     }
     /* Flower and plant lover section */
     .badge{
-        visibility: hidden;
+        display: none;
 
     }
     .store{
