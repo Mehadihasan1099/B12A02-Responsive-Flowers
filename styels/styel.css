@@ -120,10 +120,12 @@
     width: 700;
     font-size: 25px;
     margin-bottom: 0px;
-   
-}
+   }
     .banner-text{
         font-size: 20px;
     }
-    
+    .card-container{
+        max-width: 171px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 } 
